@@ -8,7 +8,7 @@ let apple_array = []; //an array to store collectibles of type "apple"
 let walls_array = []; //an array to store wall objects
 
 function setup() {
-  createCanvas(800, 800, WEBGL); //create scene of certain size using WebGL
+  createCanvas(960, 960, WEBGL); //create scene of certain size using WebGL
   angleMode(DEGREES); //sets the rotation mode to degrees, a more familiar measurement
 
   slider = createSlider(0, 360, 0); //create a slider to control the Z rotation of the scene
